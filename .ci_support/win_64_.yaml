@@ -3,9 +3,9 @@ bzip2:
 c_compiler:
 - vs2019
 channel_sources:
-- conda-forge
+- conda-forge,defaults
 channel_targets:
-- conda-forge main
+- tiledb main
 libcurl:
 - '7'
 libdeflate:

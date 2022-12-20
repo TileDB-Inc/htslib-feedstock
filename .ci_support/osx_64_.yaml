@@ -1,5 +1,7 @@
 MACOSX_DEPLOYMENT_TARGET:
-- '10.9'
+- '10.14'
+MACOSX_SDK_VERSION:
+- '10.14'
 bzip2:
 - '1'
 c_compiler:
@@ -7,9 +9,9 @@ c_compiler:
 c_compiler_version:
 - '14'
 channel_sources:
-- conda-forge
+- conda-forge,defaults
 channel_targets:
-- conda-forge main
+- tiledb main
 libcurl:
 - '7'
 libdeflate:
