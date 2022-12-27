@@ -21,15 +21,21 @@ requirements:
     - m2-bash                      # [win]
     - m2-base                      # [win]
   host:
-    - bzip2
-    - xz
-    - zlib
-    - libdeflate
+    - bzip2 # [not win]
+    - xz # [not win]
+    - zlib # [not win]
+    - libdeflate # [not win]
+    - m2-bzip2  # [win]
+    - m2-xz  # [win]
+    - m2-zlib  # [win]
   run:
-    - bzip2
-    - xz
-    - zlib
-    - libdeflate
+    - bzip2 # [not win]
+    - xz # [not win]
+    - zlib # [not win]
+    - libdeflate # [not win]
+    - m2-bzip2  # [win]
+    - m2-xz  # [win]
+    - m2-zlib  # [win]
 
 test:
   requires:

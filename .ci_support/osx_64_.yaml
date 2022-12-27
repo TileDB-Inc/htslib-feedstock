@@ -12,8 +12,6 @@ channel_sources:
 - conda-forge,defaults
 channel_targets:
 - tiledb main
-libcurl:
-- '7'
 libdeflate:
 - '1.14'
 macos_machine:
