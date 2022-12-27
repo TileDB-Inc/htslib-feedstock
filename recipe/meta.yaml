@@ -17,18 +17,31 @@ requirements:
   build:
     - make
     - {{ compiler('c') }}
+    - m2-filesystem                # [win]
+    - m2-bash                      # [win]
+    - m2-base                      # [win]
   host:
-    - bzip2
-    - xz
-    - zlib
-    - libdeflate
+    - bzip2 # [not win]
+    - xz # [not win]
+    - zlib # [not win]
+    - libdeflate # [not win]
+    - m2-bzip2  # [win]
+    - m2-xz  # [win]
+    - m2-zlib  # [win]
   run:
-    - bzip2
-    - xz
-    - zlib
-    - libdeflate
+    - bzip2 # [not win]
+    - xz # [not win]
+    - zlib # [not win]
+    - libdeflate # [not win]
+    - m2-bzip2  # [win]
+    - m2-xz  # [win]
+    - m2-zlib  # [win]
 
 test:
+  requires:
+    - m2-filesystem  # [win]
+    - m2-bash        # [win]
+    - m2-base        # [win]
   files:
     - test1.bed
   commands:  # We want to make sure that libdeflate is actually linked via HTSLib
@@ -46,7 +59,7 @@ about:
   summary: C library for high-throughput sequencing data formats.
 
 extra:
-  identifiers:
-    - biotools:HTSlib
   skip-lints:
     - in_other_channels
+  recipe-maintainers:
+    - shelnutt2

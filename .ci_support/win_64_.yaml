@@ -1,20 +1,8 @@
-bzip2:
-- '1'
 c_compiler:
 - vs2019
 channel_sources:
 - conda-forge,defaults
 channel_targets:
 - tiledb main
-libcurl:
-- '7'
-libdeflate:
-- '1.14'
-openssl:
-- 1.1.1
 target_platform:
 - win-64
-xz:
-- '5'
-zlib:
-- '1.2'

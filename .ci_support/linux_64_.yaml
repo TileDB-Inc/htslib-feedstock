@@ -12,12 +12,8 @@ channel_targets:
 - tiledb main
 docker_image:
 - quay.io/condaforge/linux-anvil-cos7-x86_64
-libcurl:
-- '7'
 libdeflate:
 - '1.14'
-openssl:
-- 1.1.1
 target_platform:
 - linux-64
 xz:
