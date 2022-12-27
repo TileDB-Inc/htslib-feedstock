@@ -53,7 +53,7 @@ about:
   summary: C library for high-throughput sequencing data formats.
 
 extra:
-  identifiers:
-    - biotools:HTSlib
   skip-lints:
     - in_other_channels
+  recipe-maintainers:
+    - shelnutt2
