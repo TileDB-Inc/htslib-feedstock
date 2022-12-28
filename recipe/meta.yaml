@@ -28,6 +28,7 @@ requirements:
     - m2-bzip2  # [win]
     - m2-xz  # [win]
     - m2-zlib  # [win]
+    - m2w64-dlfcn  # [win]
   run:
     - bzip2 # [not win]
     - xz # [not win]
@@ -36,6 +37,7 @@ requirements:
     - m2-bzip2  # [win]
     - m2-xz  # [win]
     - m2-zlib  # [win]
+    - m2w64-dlfcn  # [win]
 
 test:
   requires:
