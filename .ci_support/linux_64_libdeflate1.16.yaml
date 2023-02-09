@@ -1,0 +1,22 @@
+bzip2:
+- '1'
+c_compiler:
+- gcc
+c_compiler_version:
+- '11'
+cdt_name:
+- cos6
+channel_sources:
+- conda-forge,defaults
+channel_targets:
+- tiledb main
+docker_image:
+- quay.io/condaforge/linux-anvil-cos7-x86_64
+libdeflate:
+- '1.16'
+target_platform:
+- linux-64
+xz:
+- '5'
+zlib:
+- '1.2'
