@@ -1,6 +1,4 @@
 channels:
-  sources:
-    - conda-forge
   targets:
     - ["tiledb", "main"]
 github:
