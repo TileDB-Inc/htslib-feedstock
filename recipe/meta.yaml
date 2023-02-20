@@ -43,10 +43,12 @@ test:
 about:
   home: https://github.com/samtools/htslib
   license: MIT
+  license_family: MIT
+  license_file: LICENSE
   summary: C library for high-throughput sequencing data formats.
+  doc_url: http://www.htslib.org/
 
 extra:
-  identifiers:
-    - biotools:HTSlib
-  skip-lints:
-    - in_other_channels
+  recipe-maintainers:
+    - shelnutt2
+    - jdblischak
