@@ -8,24 +8,44 @@ jobs:
     vmImage: ubuntu-latest
   strategy:
     matrix:
-      linux_64_libdeflate1.12:
-        CONFIG: linux_64_libdeflate1.12
+      linux_64_libdeflate1.12openssl1.1.1:
+        CONFIG: linux_64_libdeflate1.12openssl1.1.1
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_libdeflate1.13:
-        CONFIG: linux_64_libdeflate1.13
+      linux_64_libdeflate1.12openssl3:
+        CONFIG: linux_64_libdeflate1.12openssl3
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_libdeflate1.14:
-        CONFIG: linux_64_libdeflate1.14
+      linux_64_libdeflate1.13openssl1.1.1:
+        CONFIG: linux_64_libdeflate1.13openssl1.1.1
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_libdeflate1.16:
-        CONFIG: linux_64_libdeflate1.16
+      linux_64_libdeflate1.13openssl3:
+        CONFIG: linux_64_libdeflate1.13openssl3
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_libdeflate1.17:
-        CONFIG: linux_64_libdeflate1.17
+      linux_64_libdeflate1.14openssl1.1.1:
+        CONFIG: linux_64_libdeflate1.14openssl1.1.1
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+      linux_64_libdeflate1.14openssl3:
+        CONFIG: linux_64_libdeflate1.14openssl3
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+      linux_64_libdeflate1.16openssl1.1.1:
+        CONFIG: linux_64_libdeflate1.16openssl1.1.1
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+      linux_64_libdeflate1.16openssl3:
+        CONFIG: linux_64_libdeflate1.16openssl3
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+      linux_64_libdeflate1.17openssl1.1.1:
+        CONFIG: linux_64_libdeflate1.17openssl1.1.1
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+      linux_64_libdeflate1.17openssl3:
+        CONFIG: linux_64_libdeflate1.17openssl3
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
   timeoutInMinutes: 360
