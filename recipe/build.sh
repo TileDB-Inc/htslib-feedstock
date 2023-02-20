@@ -1,4 +1,4 @@
 #!/bin/bash
 
-./configure --prefix=${PREFIX} --disable-libcurl --with-libdeflate --enable-plugins --disable-gcs --disable-s3
+./configure --prefix=${PREFIX} --enable-libcurl --with-libdeflate --enable-plugins --enable-gcs --enable-s3
 make install
