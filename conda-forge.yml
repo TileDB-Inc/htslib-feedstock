@@ -5,7 +5,11 @@ github:
   user_or_org: TileDB-Inc
   branch_name: main
   tooling_branch_name: main
+build_platform:
+  osx_arm64: osx_64
 provider:
   linux_64: azure
   osx_64: azure
   win_64: None
+conda_forge_output_validation: true
+test_on_native_only: true

@@ -23,6 +23,21 @@ jobs:
       osx_64_libdeflate1.17:
         CONFIG: osx_64_libdeflate1.17
         UPLOAD_PACKAGES: 'True'
+      osx_arm64_libdeflate1.12:
+        CONFIG: osx_arm64_libdeflate1.12
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_libdeflate1.13:
+        CONFIG: osx_arm64_libdeflate1.13
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_libdeflate1.14:
+        CONFIG: osx_arm64_libdeflate1.14
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_libdeflate1.16:
+        CONFIG: osx_arm64_libdeflate1.16
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_libdeflate1.17:
+        CONFIG: osx_arm64_libdeflate1.17
+        UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
 
   steps:
@@ -41,3 +56,5 @@ jobs:
     displayName: Run OSX build
     env:
       BINSTAR_TOKEN: $(BINSTAR_TOKEN)
+      FEEDSTOCK_TOKEN: $(FEEDSTOCK_TOKEN)
+      STAGING_BINSTAR_TOKEN: $(STAGING_BINSTAR_TOKEN)

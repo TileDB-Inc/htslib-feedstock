@@ -1,11 +1,11 @@
-About htslib
-============
+About htslib-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/TileDB-Inc/htslib-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/samtools/htslib
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/TileDB-Inc/htslib-feedstock/blob/main/LICENSE.txt)
 
 Summary: C library for high-throughput sequencing data formats.
 
@@ -131,6 +131,41 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/TileDB-Inc/feedstock-builds/_build/latest?definitionId=&branchName=main">
                   <img src="https://dev.azure.com/TileDB-Inc/feedstock-builds/_apis/build/status/htslib-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libdeflate1.17" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_libdeflate1.12</td>
+              <td>
+                <a href="https://dev.azure.com/TileDB-Inc/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/TileDB-Inc/feedstock-builds/_apis/build/status/htslib-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libdeflate1.12" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_libdeflate1.13</td>
+              <td>
+                <a href="https://dev.azure.com/TileDB-Inc/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/TileDB-Inc/feedstock-builds/_apis/build/status/htslib-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libdeflate1.13" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_libdeflate1.14</td>
+              <td>
+                <a href="https://dev.azure.com/TileDB-Inc/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/TileDB-Inc/feedstock-builds/_apis/build/status/htslib-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libdeflate1.14" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_libdeflate1.16</td>
+              <td>
+                <a href="https://dev.azure.com/TileDB-Inc/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/TileDB-Inc/feedstock-builds/_apis/build/status/htslib-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libdeflate1.16" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_libdeflate1.17</td>
+              <td>
+                <a href="https://dev.azure.com/TileDB-Inc/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/TileDB-Inc/feedstock-builds/_apis/build/status/htslib-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libdeflate1.17" alt="variant">
                 </a>
               </td>
             </tr>
