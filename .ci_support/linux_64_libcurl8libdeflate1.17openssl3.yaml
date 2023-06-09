@@ -3,7 +3,7 @@ bzip2:
 c_compiler:
 - gcc
 c_compiler_version:
-- '11'
+- '12'
 cdt_name:
 - cos6
 channel_sources:
@@ -13,14 +13,17 @@ channel_targets:
 docker_image:
 - quay.io/condaforge/linux-anvil-cos7-x86_64
 libcurl:
-- '7'
+- '8'
 libdeflate:
-- '1.16'
+- '1.17'
 openssl:
-- 1.1.1
+- '3'
 target_platform:
 - linux-64
 xz:
 - '5'
+zip_keys:
+- - openssl
+  - libcurl
 zlib:
 - '1.2'
