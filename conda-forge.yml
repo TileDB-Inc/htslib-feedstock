@@ -1,6 +1,3 @@
-channels:
-  targets:
-    - ["tiledb", "main"]
 github:
   user_or_org: TileDB-Inc
   branch_name: main
