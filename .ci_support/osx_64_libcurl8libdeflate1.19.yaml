@@ -13,9 +13,9 @@ channel_sources:
 channel_targets:
 - tiledb main
 libcurl:
-- '7'
+- '8'
 libdeflate:
-- '1.12'
+- '1.19'
 macos_machine:
 - x86_64-apple-darwin13.4.0
 target_platform:
