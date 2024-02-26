@@ -1,24 +1,29 @@
-MACOSX_DEPLOYMENT_TARGET:
-- '11.0'
 bzip2:
 - '1'
 c_compiler:
-- clang
+- gcc
 c_compiler_version:
-- '16'
+- '12'
+cdt_name:
+- cos6
 channel_sources:
 - conda-forge
 channel_targets:
 - tiledb main
+docker_image:
+- quay.io/condaforge/linux-anvil-cos7-x86_64
 libcurl:
-- '8'
+- '7'
 libdeflate:
-- '1.13'
-macos_machine:
-- arm64-apple-darwin20.0.0
+- '1.19'
+openssl:
+- '3'
 target_platform:
-- osx-arm64
+- linux-64
 xz:
 - '5'
+zip_keys:
+- - openssl
+  - libcurl
 zlib:
 - '1.2'
