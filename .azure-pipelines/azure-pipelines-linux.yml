@@ -8,40 +8,28 @@ jobs:
     vmImage: ubuntu-latest
   strategy:
     matrix:
-      linux_64_libcurl7libdeflate1.17openssl1.1.1:
-        CONFIG: linux_64_libcurl7libdeflate1.17openssl1.1.1
+      linux_64_libcurl7libdeflate1.17:
+        CONFIG: linux_64_libcurl7libdeflate1.17
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_libcurl7libdeflate1.17openssl3:
-        CONFIG: linux_64_libcurl7libdeflate1.17openssl3
+      linux_64_libcurl7libdeflate1.18:
+        CONFIG: linux_64_libcurl7libdeflate1.18
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_libcurl7libdeflate1.18openssl1.1.1:
-        CONFIG: linux_64_libcurl7libdeflate1.18openssl1.1.1
+      linux_64_libcurl7libdeflate1.19:
+        CONFIG: linux_64_libcurl7libdeflate1.19
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_libcurl7libdeflate1.18openssl3:
-        CONFIG: linux_64_libcurl7libdeflate1.18openssl3
+      linux_64_libcurl8libdeflate1.17:
+        CONFIG: linux_64_libcurl8libdeflate1.17
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_libcurl7libdeflate1.19openssl1.1.1:
-        CONFIG: linux_64_libcurl7libdeflate1.19openssl1.1.1
+      linux_64_libcurl8libdeflate1.18:
+        CONFIG: linux_64_libcurl8libdeflate1.18
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_libcurl7libdeflate1.19openssl3:
-        CONFIG: linux_64_libcurl7libdeflate1.19openssl3
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_libcurl8libdeflate1.17openssl3:
-        CONFIG: linux_64_libcurl8libdeflate1.17openssl3
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_libcurl8libdeflate1.18openssl3:
-        CONFIG: linux_64_libcurl8libdeflate1.18openssl3
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_libcurl8libdeflate1.19openssl3:
-        CONFIG: linux_64_libcurl8libdeflate1.19openssl3
+      linux_64_libcurl8libdeflate1.19:
+        CONFIG: linux_64_libcurl8libdeflate1.19
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
   timeoutInMinutes: 360
