@@ -8,41 +8,23 @@ jobs:
     vmImage: macOS-11
   strategy:
     matrix:
-      osx_64_libcurl7libdeflate1.17:
-        CONFIG: osx_64_libcurl7libdeflate1.17
+      osx_64_libdeflate1.17:
+        CONFIG: osx_64_libdeflate1.17
         UPLOAD_PACKAGES: 'True'
-      osx_64_libcurl7libdeflate1.18:
-        CONFIG: osx_64_libcurl7libdeflate1.18
+      osx_64_libdeflate1.18:
+        CONFIG: osx_64_libdeflate1.18
         UPLOAD_PACKAGES: 'True'
-      osx_64_libcurl7libdeflate1.19:
-        CONFIG: osx_64_libcurl7libdeflate1.19
+      osx_64_libdeflate1.19:
+        CONFIG: osx_64_libdeflate1.19
         UPLOAD_PACKAGES: 'True'
-      osx_64_libcurl8libdeflate1.17:
-        CONFIG: osx_64_libcurl8libdeflate1.17
+      osx_arm64_libdeflate1.17:
+        CONFIG: osx_arm64_libdeflate1.17
         UPLOAD_PACKAGES: 'True'
-      osx_64_libcurl8libdeflate1.18:
-        CONFIG: osx_64_libcurl8libdeflate1.18
+      osx_arm64_libdeflate1.18:
+        CONFIG: osx_arm64_libdeflate1.18
         UPLOAD_PACKAGES: 'True'
-      osx_64_libcurl8libdeflate1.19:
-        CONFIG: osx_64_libcurl8libdeflate1.19
-        UPLOAD_PACKAGES: 'True'
-      osx_arm64_libcurl7libdeflate1.17:
-        CONFIG: osx_arm64_libcurl7libdeflate1.17
-        UPLOAD_PACKAGES: 'True'
-      osx_arm64_libcurl7libdeflate1.18:
-        CONFIG: osx_arm64_libcurl7libdeflate1.18
-        UPLOAD_PACKAGES: 'True'
-      osx_arm64_libcurl7libdeflate1.19:
-        CONFIG: osx_arm64_libcurl7libdeflate1.19
-        UPLOAD_PACKAGES: 'True'
-      osx_arm64_libcurl8libdeflate1.17:
-        CONFIG: osx_arm64_libcurl8libdeflate1.17
-        UPLOAD_PACKAGES: 'True'
-      osx_arm64_libcurl8libdeflate1.18:
-        CONFIG: osx_arm64_libcurl8libdeflate1.18
-        UPLOAD_PACKAGES: 'True'
-      osx_arm64_libcurl8libdeflate1.19:
-        CONFIG: osx_arm64_libcurl8libdeflate1.19
+      osx_arm64_libdeflate1.19:
+        CONFIG: osx_arm64_libdeflate1.19
         UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
 
