@@ -29,6 +29,13 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
+              <td>linux_64_libdeflate1.17</td>
+              <td>
+                <a href="https://dev.azure.com/TileDB-Inc/CI/_build/latest?definitionId=44&branchName=main">
+                  <img src="https://dev.azure.com/TileDB-Inc/CI/_apis/build/status/htslib-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libdeflate1.17" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_64_libdeflate1.18</td>
               <td>
                 <a href="https://dev.azure.com/TileDB-Inc/CI/_build/latest?definitionId=44&branchName=main">
@@ -50,45 +57,17 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_libdeflate1.18</td>
+              <td>osx_64</td>
               <td>
                 <a href="https://dev.azure.com/TileDB-Inc/CI/_build/latest?definitionId=44&branchName=main">
-                  <img src="https://dev.azure.com/TileDB-Inc/CI/_apis/build/status/htslib-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libdeflate1.18" alt="variant">
+                  <img src="https://dev.azure.com/TileDB-Inc/CI/_apis/build/status/htslib-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_libdeflate1.19</td>
+              <td>osx_arm64</td>
               <td>
                 <a href="https://dev.azure.com/TileDB-Inc/CI/_build/latest?definitionId=44&branchName=main">
-                  <img src="https://dev.azure.com/TileDB-Inc/CI/_apis/build/status/htslib-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libdeflate1.19" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_libdeflate1.20</td>
-              <td>
-                <a href="https://dev.azure.com/TileDB-Inc/CI/_build/latest?definitionId=44&branchName=main">
-                  <img src="https://dev.azure.com/TileDB-Inc/CI/_apis/build/status/htslib-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libdeflate1.20" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_libdeflate1.18</td>
-              <td>
-                <a href="https://dev.azure.com/TileDB-Inc/CI/_build/latest?definitionId=44&branchName=main">
-                  <img src="https://dev.azure.com/TileDB-Inc/CI/_apis/build/status/htslib-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libdeflate1.18" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_libdeflate1.19</td>
-              <td>
-                <a href="https://dev.azure.com/TileDB-Inc/CI/_build/latest?definitionId=44&branchName=main">
-                  <img src="https://dev.azure.com/TileDB-Inc/CI/_apis/build/status/htslib-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libdeflate1.19" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_libdeflate1.20</td>
-              <td>
-                <a href="https://dev.azure.com/TileDB-Inc/CI/_build/latest?definitionId=44&branchName=main">
-                  <img src="https://dev.azure.com/TileDB-Inc/CI/_apis/build/status/htslib-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libdeflate1.20" alt="variant">
+                  <img src="https://dev.azure.com/TileDB-Inc/CI/_apis/build/status/htslib-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_" alt="variant">
                 </a>
               </td>
             </tr>
