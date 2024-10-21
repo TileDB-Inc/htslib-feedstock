@@ -36,24 +36,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_libdeflate1.18</td>
+              <td>linux_64_libdeflate1.21</td>
               <td>
                 <a href="https://dev.azure.com/TileDB-Inc/CI/_build/latest?definitionId=44&branchName=main">
-                  <img src="https://dev.azure.com/TileDB-Inc/CI/_apis/build/status/htslib-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libdeflate1.18" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_libdeflate1.19</td>
-              <td>
-                <a href="https://dev.azure.com/TileDB-Inc/CI/_build/latest?definitionId=44&branchName=main">
-                  <img src="https://dev.azure.com/TileDB-Inc/CI/_apis/build/status/htslib-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libdeflate1.19" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_libdeflate1.20</td>
-              <td>
-                <a href="https://dev.azure.com/TileDB-Inc/CI/_build/latest?definitionId=44&branchName=main">
-                  <img src="https://dev.azure.com/TileDB-Inc/CI/_apis/build/status/htslib-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libdeflate1.20" alt="variant">
+                  <img src="https://dev.azure.com/TileDB-Inc/CI/_apis/build/status/htslib-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libdeflate1.21" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -162,4 +148,5 @@ Feedstock Maintainers
 
 * [@jdblischak](https://github.com/jdblischak/)
 * [@shelnutt2](https://github.com/shelnutt2/)
+* [@teo-tsirpanis](https://github.com/teo-tsirpanis/)
 

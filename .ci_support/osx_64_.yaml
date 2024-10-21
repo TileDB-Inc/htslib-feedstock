@@ -7,7 +7,7 @@ bzip2:
 c_compiler:
 - clang
 c_compiler_version:
-- '16'
+- '17'
 c_stdlib:
 - macosx_deployment_target
 c_stdlib_version:
@@ -19,7 +19,7 @@ channel_targets:
 libcurl:
 - '8'
 libdeflate:
-- '1.20'
+- '1.21'
 macos_machine:
 - x86_64-apple-darwin13.4.0
 target_platform:
