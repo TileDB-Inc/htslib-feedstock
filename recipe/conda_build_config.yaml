@@ -8,4 +8,4 @@ channel_targets:
   - tiledb main
 libdeflate:  # [linux]
   - 1.17     # [linux]
-  - 1.21     # [linux]
+  - 1.24     # [linux]
