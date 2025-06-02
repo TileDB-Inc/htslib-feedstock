@@ -36,10 +36,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_libdeflate1.21</td>
+              <td>linux_64_libdeflate1.24</td>
               <td>
                 <a href="https://dev.azure.com/TileDB-Inc/CI/_build/latest?definitionId=44&branchName=main">
-                  <img src="https://dev.azure.com/TileDB-Inc/CI/_apis/build/status/htslib-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libdeflate1.21" alt="variant">
+                  <img src="https://dev.azure.com/TileDB-Inc/CI/_apis/build/status/htslib-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libdeflate1.24" alt="variant">
                 </a>
               </td>
             </tr><tr>
