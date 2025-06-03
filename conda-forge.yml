@@ -8,7 +8,7 @@ provider:
   linux_64: azure
   osx_64: azure
   win_64: None
-conda_forge_output_validation: true
+conda_forge_output_validation: false
 test: native_and_emulated
 azure:
   build_id: 44
