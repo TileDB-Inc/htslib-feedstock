@@ -12,8 +12,8 @@ jobs:
         CONFIG: linux_64_libdeflate1.17
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_libdeflate1.24:
-        CONFIG: linux_64_libdeflate1.24
+      linux_64_libdeflate1.25:
+        CONFIG: linux_64_libdeflate1.25
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
   timeoutInMinutes: 360
