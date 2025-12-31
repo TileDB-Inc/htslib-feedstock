@@ -36,10 +36,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_libdeflate1.24</td>
+              <td>linux_64_libdeflate1.25</td>
               <td>
                 <a href="https://dev.azure.com/TileDB-Inc/CI/_build/latest?definitionId=44&branchName=main">
-                  <img src="https://dev.azure.com/TileDB-Inc/CI/_apis/build/status/htslib-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libdeflate1.24" alt="variant">
+                  <img src="https://dev.azure.com/TileDB-Inc/CI/_apis/build/status/htslib-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libdeflate1.25" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -133,7 +133,7 @@ merged, the recipe will be re-built and uploaded automatically to the
 everybody to install and use from the `tiledb` channel.
 Note that all branches in the TileDB-Inc/htslib-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
-on branches in forks and branches in the main repository should only be used to
+on branches in forks, and branches in the main repository should only be used to
 build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
@@ -146,8 +146,8 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@alancleary](https://github.com/alancleary/)
 * [@jdblischak](https://github.com/jdblischak/)
 * [@shelnutt2](https://github.com/shelnutt2/)
 * [@teo-tsirpanis](https://github.com/teo-tsirpanis/)
-* [@alancleary](https://github.com/alancleary/)
 
