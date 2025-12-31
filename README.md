@@ -149,4 +149,5 @@ Feedstock Maintainers
 * [@jdblischak](https://github.com/jdblischak/)
 * [@shelnutt2](https://github.com/shelnutt2/)
 * [@teo-tsirpanis](https://github.com/teo-tsirpanis/)
+* [@alancleary](https://github.com/alancleary/)
 
